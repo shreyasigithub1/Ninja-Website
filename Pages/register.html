@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninja-Registration</title>
+</head>
+<body>
+    <header>
+    <div>
+        <img src="../Multimedia/new_cn_logo.svg" width="200" height="50" alt="Coding ninja logo"/>
+       </div> 
+    </header>
+    
+    <h1>Create an account</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+         <br/>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required/>
+        <br/><br/>
+        <label>Email</label>
+        <input type="email" id="email" name="email" required/>
+        <br/><br/>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required/>
+        <br/><br/>
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required/>
+        <br/><br/>
+
+        <label for="usertype">User Type:</label>
+        <select  name="usertype" id="usertype" required>
+            <option value="selectusertype">Select user type</option>
+        </select>
+
+        <br/><br/>
+
+
+        <label>Select Course:</label>
+        <select name="coursetype" id="coursetype" required  >
+            <option value="webdevelopment">Course-1 Web Development</option>
+            <option value="datasciencefundamentals">Course 2- Data Science Fundamental</option>
+            <option value="digitalmarketing">Course 3- Digital Marketing Mastery</option>
+            <option value="android">Course 4-Android Development</option>
+        </select>
+
+
+        <br/><br/>
+        <input type="submit" value="Register" required/>
+    </fieldset> 
+    </form>
+</body>
+</html>
